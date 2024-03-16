@@ -3,19 +3,44 @@
   "displayName": "The Mango Theme",
   "description": "A Dark Theme",
   "version": "0.0.1",
+  "publisher": "sanjeevkse",
+  "license": "MIT",
+  "galleryBanner": {
+    "color": "#282C34",
+    "theme": "dark"
+  },
   "engines": {
     "vscode": "^1.87.0"
   },
   "categories": [
     "Themes"
   ],
+  "keywords": [
+    "mango",
+    "theme",
+    "dark",
+    "best"
+  ],
+  "icon": "icon.png",
   "contributes": {
     "themes": [
       {
         "label": "The Mango Theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/The Mango Theme-color-theme.json"
+        "path": "./themes/TheMangoTheme-color-theme.json"
       }
     ]
+  },
+  "bugs": {
+    "url": "https://github.com/sanjeevkse/the-mango-theme/issues",
+    "email": "sanjeevkse@gmail.com"
+  },
+  "homepage": "https://github.com/sanjeevkse/the-mango-theme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sanjeevkse/the-mango-theme"
+  },
+  "sponsor": {
+    "url": "https://github.com/sponsors/sanjeevkse"
   }
 }
