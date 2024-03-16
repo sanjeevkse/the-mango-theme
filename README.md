@@ -8,7 +8,11 @@
 
 It is a Dark Theme for VSCode.
 
-![](https://raw.githubusercontent.com/sanjeevkse/the-mango-theme/main/screenshots/s1.png)
+## Screenshots
+
+![Editor View](https://raw.githubusercontent.com/sanjeevkse/the-mango-theme/main/screenshots/s1.png)
+
+> :information_source: **I will be adding more & more eye catchy colors for developers**: Stay tuned by using it!
 
 ## Sponsors
 
