@@ -1,12 +1,12 @@
 {
   "name": "the-mango-theme",
   "displayName": "The Mango Theme",
-  "description": "A Dark Theme",
-  "version": "0.0.3",
+  "description": "A dark theme inspired by Atom's One Dark — warm editor, sidebar, and syntax highlighting.",
+  "version": "0.1.0",
   "publisher": "sanjeevkse",
   "license": "MIT",
   "galleryBanner": {
-    "color": "#282C34",
+    "color": "#282c34",
     "theme": "dark"
   },
   "engines": {
@@ -19,7 +19,9 @@
     "mango",
     "theme",
     "dark",
-    "best"
+    "atom",
+    "one dark",
+    "one-dark"
   ],
   "icon": "icon.png",
   "contributes": {
