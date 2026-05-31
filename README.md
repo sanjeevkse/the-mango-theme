@@ -1,33 +1,47 @@
 # The Mango Theme
 
 [![Preview in vscode.dev](https://img.shields.io/badge/preview%20in-vscode.dev-brightgreen)](https://marketplace.visualstudio.com/items?itemName=sanjeevkse.the-mango-theme)
-![Visual Studio Marketplace Version (including pre-releases)](https://img.shields.io/visual-studio-marketplace/v/sanjeevkse.the-mango-theme)
+![Visual Studio Marketplace Version](https://img.shields.io/visual-studio-marketplace/v/sanjeevkse.the-mango-theme)
 
-A dark theme for VS Code inspired by [Atom](https://atom.io)'s iconic **One Dark** theme — the editor GitHub built before VS Code took over.
+A dark theme built for **readable, comfortable coding** — calm syntax colors, subtle line highlights, and a clean sidebar. One JSON file, easy to customize.
 
-## Features
-
-- **Atom One Dark UI** — sidebar, tabs, activity bar, status bar, terminal, and panels styled to match Atom's layout and contrast
-- **One Dark syntax palette** — keywords, strings, functions, comments, and markup use Atom's original hues
-- **Mango accent** — warm `#d19a66` highlights on active tabs, focus borders, and badges for a subtle branded touch
+When you select **Mango Dark**, the extension applies editor defaults that match this layout: no minimap, hidden activity bar, generous line height, and indentation guides — the same friendly spacing you remember from classic GitHub-era editors.
 
 ## Screenshots
 
-![Editor View](https://raw.githubusercontent.com/sanjeevkse/the-mango-theme/main/screenshots/s1.png)
+![Mango Dark editor](screenshots/reference-editor.png)
 
 ## Installing
 
-This extension is available for free in the [Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=sanjeevkse.the-mango-theme).
+[Visual Studio Code Marketplace](https://marketplace.visualstudio.com/items?itemName=sanjeevkse.the-mango-theme)
 
-To try it locally during development, press **F5** in this repo to launch the Extension Development Host, then choose **The Mango Theme** from **Preferences → Color Theme**.
+**Local test:** open this folder → **F5** → **Preferences: Color Theme** → **Mango Dark**.
+
+## Recommended settings
+
+These apply when you select **Mango Dark**. If something still looks off, your user settings may be overriding them — open Settings and search for `editor.fontFamily` / `editor.fontSize`.
+
+```json
+{
+  "editor.fontFamily": "Menlo, Consolas, 'DejaVu Sans Mono', monospace",
+  "editor.fontSize": 14,
+  "editor.lineHeight": 1.5,
+  "editor.semanticHighlighting.enabled": false,
+  "editor.minimap.enabled": false,
+  "explorer.openEditors.visible": 0,
+  "workbench.activityBar.location": "hidden"
+}
+```
+
+After switching theme: **Cmd+Shift+P → Developer: Reload Window**.
+
+## Contributing
+
+See **[THEMES.md](./THEMES.md)** for how the theme file is structured.
 
 ## What's new?
 
-See the [Changelog](https://github.com/sanjeevkse/the-mango-theme/blob/main/CHANGELOG.md).
-
-## Inconsistencies?
-
-If you find any inconsistency in any language, raise an Issue and I'll fix it — please include a sample snippet so I can compare.
+[Changelog](./CHANGELOG.md)
 
 ## Sponsors
 
